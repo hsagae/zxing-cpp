@@ -29,7 +29,7 @@ namespace detector {
 class LinesSampler {
 protected:
   static const int MODULES_IN_SYMBOL = 17;
-  static const int BARS_IN_SYMBOL = 8;
+  static const int BARS_IN_SYMBOL;
   static const int POSSIBLE_SYMBOLS = 2787;
   static const std::vector<float> RATIOS_TABLE;
   static std::vector<float> init_ratios_table();

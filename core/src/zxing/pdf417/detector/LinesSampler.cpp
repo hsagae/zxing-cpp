@@ -35,6 +35,7 @@ using zxing::Point;
 
 // VC++
 using zxing::Line;
+const int LinesSampler::BARS_IN_SYMBOL = 8;
 
 namespace {
 
